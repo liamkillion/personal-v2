@@ -99,3 +99,18 @@ $('a[href*="#"]')
       }
     }
   });
+
+// random cursors
+function random(arr) {
+  let num = Math.floor(Math.random() * arr.length);
+  return arr[num];
+}
+
+let cursorArray = [bandaid.png, burger.png, corndog.png, eyeball.png, glitchanime.png, ricky.png, squirrel.png]
+// Selects the element
+let els = document.getElementsByClassName('card')
+
+// Changes the cursor
+els.map(element => {
+  element.style.cursor = "url(../images/cursors/" + random(cursorArray) + "), auto"
+})

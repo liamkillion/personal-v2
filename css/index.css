@@ -8,6 +8,12 @@ div#side-bar {
   top: 0;
   height: 100%;
   position: fixed;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+div#side-bar > a > img {
+  width: 4em;
 }
 
 div.ui.top.fixed.small.menu.nav-down {
@@ -47,7 +53,18 @@ div.ui.top.fixed.small.menu.nav-up {
   left: 0;
 }
 
-.divider {
+div.sixteen.wide.column.divider {
   background-color: teal;
-  height: 10em;
+  height: 15em;
+  padding: 5%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+div.ui.segment {
+  text-align: center;
+}
+
+div.ui.right.vertical.inverted.sidebar.menu.overlay.visible {
+  background-color: #383d46;
 }
