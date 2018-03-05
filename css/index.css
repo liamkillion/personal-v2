@@ -1,0 +1,53 @@
+body,
+html {
+  height: 100%;
+}
+
+div#side-bar {
+  right: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+}
+
+div.ui.top.fixed.small.menu.nav-down {
+  left: 0;
+  top: 0;
+  padding-top: 1%;
+  transition: top 0.2s ease-in-out;
+  height: 11%;
+  width: 94.7%;
+  border-right: 5px solid #383d46;
+  border-bottom: 3px solid #383d46;
+}
+
+div.ui.top.fixed.small.menu.nav-up {
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  height: 10px;
+  width: 94.7%;
+  background-color: #383d46;
+}
+
+.logo-up {
+  visibility: hidden;
+}
+
+.logo-down {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.header-image {
+  width: 94.7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.divider {
+  background-color: teal;
+  height: 10em;
+}
